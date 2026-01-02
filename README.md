@@ -1,8 +1,8 @@
-# 📢 Emergency Communication System
+# Emergency Communication System
 
 ---
 
-## 🚀 **Project Overview**
+## **Project Overview**
 The **Emergency Communication System** is a web-based application that allows users to send emergency alerts via SMS using Twilio. Users can capture their geolocation using HTML5's Geolocation API to provide additional context about their emergency. This system is designed to be simple, intuitive, and efficient, enabling users to send alerts with just a few clicks.
 
    - Develop a user-friendly web-based application to send emergency alerts via SMS using Twilio.
