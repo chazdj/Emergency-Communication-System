@@ -38,8 +38,8 @@ Before you can run the project locally, ensure you have:
 
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/Chazdj0510/Project2>
-   cd Project2
+   git clone <https://github.com/Chazdj/Emergency-Communication-System>
+   cd Emergency-Communication-System
 2. Install dependencies:
    ```bash
    pip install flask twilio
