@@ -1,15 +1,11 @@
 # Emergency Communication System
 
----
-
-## **Project Overview**
+## Overview
 The **Emergency Communication System** is a web-based application that allows users to send emergency alerts via SMS using Twilio. Users can capture their geolocation using HTML5's Geolocation API to provide additional context about their emergency. This system is designed to be simple, intuitive, and efficient, enabling users to send alerts with just a few clicks.
 
    - Develop a user-friendly web-based application to send emergency alerts via SMS using Twilio.
    - Integrate HTML5's Geolocation API to capture and transmit the user's location for precise emergency reporting.
    - Ensure the system is efficient, accessible, and responsive to facilitate quick emergency communication during wildfires.
-
----
 
 ## Significance and Novelty of the Project
 **Background Information:**
@@ -21,9 +17,6 @@ This project addresses the need for a lightweight, fast, and reliable communicat
 **Novelty:**
 Unlike many existing emergency communication systems, this application combines SMS alerts with geolocation capabilities, ensuring accurate contextual information is shared. Its simplicity and accessibility set it apart, as users can quickly send alerts without requiring specialized equipment or extensive technical knowledge.
 
-
----
-
 ## Installation and Usage
 ### Prerequisites
 Before you can run the project locally, ensure you have:
@@ -32,13 +25,10 @@ Before you can run the project locally, ensure you have:
 2. A Twilio account with credentials
 3. Twilio's credentials (`Account SID`, `Auth Token`, and a Twilio phone number)
 
----
-
 ### Installation Steps
-
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/Chazdj/Emergency-Communication-System>
+   git clone <https://github.com/chazdj/Emergency-Communication-System>
    cd Emergency-Communication-System
 2. Install dependencies:
    ```bash
@@ -79,8 +69,6 @@ The project leverages the following tools and libraries:
 **Explanation:**
 The frontend captures user input and location data, sends it to the backend API, which then communicates with Twilio to dispatch the alert.
 
----
-
 ## List of Functionalities and Verification Results
 **Functionalities:**
 1. SMS Alert System using Twilio API.
@@ -91,8 +79,6 @@ The frontend captures user input and location data, sends it to the backend API,
 **Testing Results:**
 - Functionality: Successful SMS transmission with accurate geolocation.
 - Error Handling: Identified and resolved invalid phone number and location access denial issues.
-
----
 
 ## Achievement of Project Goals
 - Successfully integrated Twilio for real-time SMS communication.
@@ -116,3 +102,7 @@ This project reinforced course concepts in:
 - Web development (frontend and backend integration)
 - API usage (Twilio and Geolocation APIs)
 - Testing and debugging
+
+## Author
+Created by **Chastidy Joanem**  
+GitHub: [@chazdj](https://github.com/chazdj)
